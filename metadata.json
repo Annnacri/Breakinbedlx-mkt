@@ -1,0 +1,6 @@
+{
+  "name": "Breakfast in Bed LX",
+  "description": "Gerador e showcase de vídeos de marketing para experiência de café da manhã premium no quarto em Lisboa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

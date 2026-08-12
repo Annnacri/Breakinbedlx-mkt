@@ -1,0 +1,62 @@
+import { MenuItem } from './types';
+
+export const MENU_ITEMS: MenuItem[] = [
+  {
+    id: 'm1',
+    name: 'Sande Artesanal de Bifana Gourmet & Presunto',
+    category: 'artesanal',
+    description: 'Pão fofinho e estaladiço recheado com finas fatias de carne marinada e presunto selecionado.',
+    tagline: 'Acorda. Nós tratamos do pequeno-almoço.',
+    price: '€8.50',
+    image: 'https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=800&q=80',
+    highlight: true,
+  },
+  {
+    id: 'm2',
+    name: 'Salgados Tradicionais & Coxinhas Artesanais',
+    category: 'salgado',
+    description: 'Variedade de coxinhas douradas e crocantes, rissóis caseiros e empadas acabadas de fritar.',
+    tagline: 'Preparado fresco todas as manhãs.',
+    price: '€9.00',
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    highlight: true,
+  },
+  {
+    id: 'm3',
+    name: 'Sande de Assado Tradicional no Pão',
+    category: 'artesanal',
+    description: 'Carne assada lentamente com molho especial artesanal e toque de limão fresco.',
+    tagline: 'Entregue no teu hotel ou Airbnb.',
+    price: '€10.50',
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80',
+    highlight: true,
+  },
+  {
+    id: 'm4',
+    name: 'Bolinhos de Bacalhau & Pasteis Típicos',
+    category: 'salgado',
+    description: 'Receita tradicional lisboeta com bacalhau desfiado, salsa e batata bem temperada.',
+    tagline: 'Sabores auténticos de Lisboa.',
+    price: '€7.50',
+    image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'm5',
+    name: 'Pastéis de Nata & Doces Conventuais',
+    category: 'doce',
+    description: 'Creme aveludado e massa folhada estaladiça polvilhada com canela.',
+    tagline: 'Reserva até às 23h. Acorda com pequeno-almoço.',
+    price: '€6.00',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
+    highlight: true,
+  },
+  {
+    id: 'm6',
+    name: 'Sumo de Laranja do Algarve Natural',
+    category: 'bebida',
+    description: 'Sumo de laranja recém-espremido e cheio de vitamina C para renovar o dia.',
+    tagline: 'Energia natural diretamente para a tua cama.',
+    price: '€4.00',
+    image: 'https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=800&q=80',
+  }
+];
